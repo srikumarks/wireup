@@ -1,0 +1,8 @@
+# Audio signal flow graph
+
+Wireup is a library and interface for creating small audio processing nodes
+that can be wired up into a signal flow graph and run to generate sounds.
+
+WORK IN PROGRESS
+
+http://srikumarks.github.com/wireup
