@@ -6992,8 +6992,8 @@ package._.main = (function (System, Tests, UI, Kinetic) {
                 };
             }());
 
-            var context = new webkitAudioContext();
-            jsnode = context.createJavaScriptNode(1024); // hold global reference.
+            var context = new AudioContext();
+            jsnode = context.createScriptProcessor(1024); // hold global reference.
 
             var stage = new Kinetic.Stage({
                 container: "container",
